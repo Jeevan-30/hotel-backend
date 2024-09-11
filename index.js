@@ -9,7 +9,7 @@ const Room = require("./models/Room")
 const Booking = require("./models/Booking")
 const User = require("./models/User")
 const Rating = require("./models/Rating")
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 10000;
 const Stripe = require('stripe');
 const stripe = Stripe('sk_test_51PuZIVKLgDvYSZsi4iV7ptdLAyutOzgwSsKgOcavqR5dcC8vXoS2XQXdk6tVNrFxdgUn72ikzhAFbEkSi4K7AtDd00xZMSjuYR');
 
